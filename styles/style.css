@@ -18,9 +18,11 @@ body {
     background-color: #f5f7fa;
     font-size: 18px; /* Base font size increase */
 }
-
+.banner{
+   background: url("../Assets/Hero-bg.png") center center/cover; 
+}
 .main-navbar {
-    background: url('./Assets/Hero-bg.png') center center/cover;
+    
     padding: 20px 0;
     position: fixed;
     width: 100%;
@@ -65,8 +67,9 @@ body {
     transform: scale(0.98);
 }
 
+
 .main-banner {
-    background: url('../../B12A01-landing-launchpad/Assets/Hero-bg.png') center center/cover;
+
     padding: 140px 20px 80px;
     text-align: center;
     min-height: 600px;
@@ -79,12 +82,15 @@ body {
     max-width: 98%;
     margin: 0 auto;
 }
+.main-banner-content .main-banner-box{
+    margin-bottom: 40px;
+}
 
-.main-banner-content h1 {
+.main-banner-content .main-banner-box h1 {
     font-size: 60px;
     font-weight: bold;
     color: #252432;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     line-height: 1.2;
     max-width: 905px;
     margin-left: auto;
